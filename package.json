@@ -1,15 +1,12 @@
 {
-  "name": "kanban",
+  "name": "0.project-kickoff",
   "version": "1.0.0",
-  "description": "",
+  "description": "kanban board project",
   "main": "index.js",
+  "author": "",
+  "license": "ISC",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --progress"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/edinanana/kanban.git"
   },
   "devDependencies": {
     "babel-core": "^6.9.0",
@@ -22,11 +19,5 @@
   "dependencies": {
     "react": "^15.1.0",
     "react-dom": "^15.1.0"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/edinanana/kanban/issues"
-  },
-  "homepage": "https://github.com/edinanana/kanban#readme"
+  }
 }

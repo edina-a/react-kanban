@@ -1,8 +1,8 @@
 var webpack = require('webpack');
-module.exports = {
+var config = {
     entry:  __dirname + "/app/index.js",
     output: {
-        path: __dirname,
+        path: __dirname + "/public",
         filename: 'bundle.js'
     },
     module: {
@@ -14,5 +14,13 @@ module.exports = {
                 presets: ['es2015','react']
             }
         }]
+    },
+    devServer: {
+        contentBase: "./public",
+        colors: true,
+        historyApiFallback: true,
+        inline: true
     }
 };
+
+module.exports = config;
